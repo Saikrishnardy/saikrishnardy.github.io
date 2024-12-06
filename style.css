@@ -9,34 +9,36 @@
     height: 100%;
   }
 
-  .header-row {
-    background-color: rgb(35, 37, 37);
-    display: flex;
+  .header{
+    display:flex;
+    background-color: black;
     justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0px;
-    color: white;
-  }
-
-  .header-row .box {
-    padding: 10px;
-  }
-
-  .header-row li {
-    display: inline;
-    padding: 5px;
-    font-size: larger;
+   
+    
     
   }
 
-  .header-row a {
-    text-decoration: none;
-    color: white;
+  .menu ul{
+    display: flex;
+    
+    
   }
-
-  .header-row a:hover {
-    text-decoration: underline;
+  .menu ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 10px;
+    transition-duration: 0.2s;
+  
+    
+  
+  }
+  .menu ul li a:hover{
+    font-size: larger;
+  }
+  .menu ul li{
+    list-style: none;
+    padding: 14px 20px;
+    
   }
 
   .row {
