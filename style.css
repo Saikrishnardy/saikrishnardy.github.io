@@ -9,9 +9,7 @@
   height: 100%;
 
 }
-#home{
-  background-image: url("");
-}
+
 .c1{
   border-color: black;
  
@@ -90,10 +88,13 @@
   font-size: large;
 }
 
-button {
-  background-color: teal;
-  padding: 10px;
-  color: white;
-  border: none;
-  border-radius: 10%;
+
+
+#home{
+  background-image: url("assests/images/img3.jpg");
+  background-size: cover;  /* Ensures full coverage */
+  background-repeat: no-repeat; /* Prevents tiling */
+  background-position: center; /* Centers the image */
+  height: 100vh; 
+  background-color: aliceblue;
 }
