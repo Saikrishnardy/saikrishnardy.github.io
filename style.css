@@ -6,37 +6,49 @@
   bottom: 0;
   right: 0;
   scroll-behavior: smooth;
-  height: 100%;
+  height: 100vh;
+  width: 100vw;
+
 
 }
 
-.c1{
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.c1 {
   border-color: black;
- 
+
   border-radius: 25px;
- 
-  
+
+
 }
 
 .header {
   display: flex;
-  
   justify-content: space-between;
   border-collapse: collapse;
-  background-color: rgb(236, 236, 227);
+  align-items: center;
+  width: 100vw;
+  padding: 10px;
+  background-color: rgb(233, 239, 245);
+  position: fixed;
 
 
 
 }
 
 .header h1 {
+  
   color: rgb(15, 15, 16);
-  padding-left: 25px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  padding-left: 50px;
+  font-family: Madefor-Display, Madefor Display, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
 }
 
 .menu ul {
   display: flex;
+
 
 
 }
@@ -47,8 +59,9 @@
   font-size: large;
   margin: 10px;
   transition-duration: 0.2s;
- 
   
+
+
 
 
 
@@ -56,7 +69,8 @@
 
 .menu ul li a:hover {
   font-size: larger;
-  
+  color: rgb(13, 13, 15);
+ 
 
 }
 
@@ -64,15 +78,22 @@
   list-style: none;
   padding: 14px 20px;
 
+
+
+}
+.menu ul li:hover {
+  border-radius: 50px;
+  background-color: rgb(170, 177, 177);
 }
 
 .menu ul {
-  padding-right:470px;
+  padding-right: 470px;
 }
 
 .row {
   padding: 100px;
-  height: 75%;
+  
+  
 }
 
 .row .box {
@@ -90,11 +111,27 @@
 
 
 
-#home{
-  background-image: url("assests/images/img3.jpg");
-  background-size: cover;  /* Ensures full coverage */
-  background-repeat: no-repeat; /* Prevents tiling */
-  background-position: center; /* Centers the image */
-  height: 100vh; 
-  background-color: aliceblue;
+
+
+.footer {
+  padding: 20px;
+  margin: 0px;
+  background-color: black;
+  color: white;
+  font-size: large;
+}
+
+
+
+#home {
+
+
+  background-size: cover;
+  /* Ensures full coverage */
+  background-repeat: no-repeat;
+  /* Prevents tiling */
+  background-position: center;
+  /* Centers the image */
+  height: 100vh;
+  background-color: rgb(233, 239, 245);
 }
